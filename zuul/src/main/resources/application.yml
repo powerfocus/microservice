@@ -11,3 +11,11 @@ eureka:
   instance:
     ip-address: ${server.address}
     prefer-ip-address: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["*"]
+ribbon:
+  eureka:
+    enabled: false

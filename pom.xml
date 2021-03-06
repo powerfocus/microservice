@@ -16,6 +16,7 @@
         <module>microservice-user2</module>
         <module>microservice-user3</module>
         <module>zuul</module>
+        <module>gateway</module>
     </modules>
     <properties>
         <maven.compiler.source>13</maven.compiler.source>
