@@ -17,6 +17,7 @@
         <module>microservice-user3</module>
         <module>zuul</module>
         <module>gateway</module>
+        <module>mongodb</module>
     </modules>
     <properties>
         <maven.compiler.source>13</maven.compiler.source>
