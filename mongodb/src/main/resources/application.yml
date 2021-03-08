@@ -4,17 +4,6 @@ server:
 spring:
   application:
     name: mongodb-jwt
-  jpa:
-    database-platform: org.hibernate.dialect.MongodbDialect
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: mongo2021
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    ip-address: localhost
-    prefer-ip-address: true
+      uri: mongodb://localhost:27017/db2021

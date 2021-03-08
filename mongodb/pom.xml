@@ -11,10 +11,10 @@
 
     <artifactId>mongodb</artifactId>
     <dependencies>
-        <dependency>
+        <!--<dependency>
             <groupId>org.mongodb</groupId>
             <artifactId>mongo-java-driver</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
